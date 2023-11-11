@@ -20,10 +20,10 @@ git checkout -И main
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
+# if you are deploying to https://<rssXX>.github.io
+# git push -f git@github.com:<rssXX>/<rssXX>.github.io.git main
 
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:rssXX/davidka.git main:gh-pages
+# if you are deploying to https://<rssXX>.github.io/<davidka>
+# git push -f git@github.com:<rssXX>/<davidka>.git main:gh-pages
 
 cd -
