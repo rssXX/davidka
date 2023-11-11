@@ -1,0 +1,23 @@
+@import '../variables';
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: white;
+  box-shadow: 0 4px 4px -2px #18274b14, 0 2px 4px -2px #18274b1f;
+
+  .container{
+    height: 60px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    max-width: $container;
+    margin: 0 auto;
+  }
+}
